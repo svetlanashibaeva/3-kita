@@ -9,7 +9,7 @@
 3) таск-менеджер Gulp
 4) JavaScript
 
-Скриншот главной страницы:
 
-![Image alt](https://github.com/svetlanashibaeva/3-kita/blob/master/docs/Screen.png)
+
+
 
