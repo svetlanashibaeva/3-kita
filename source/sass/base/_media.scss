@@ -1,0 +1,645 @@
+@media (max-width: 1200px) {
+    .promo {
+        &__menu {
+            ul {
+                margin-top: 62px;
+                li {
+                    font-size: 18px;
+                }
+            }
+            img {
+                width: 203px;
+                height: 113px;
+            }
+        }
+        &__title {
+            font-size: 50px;
+        }
+        &__header {
+            margin: 67px 207px 0 207px;
+        }
+    }
+
+    .advantages {
+        &__col {
+            &_item {
+                width: 200px;
+                margin-bottom: 20px;
+                padding: 19px;
+                img {
+                    width: 40px;
+                    height: 40px;
+                }
+            }
+        }
+    }
+
+    .statistics {
+        &__title {
+            font-size: 50px;
+        }
+        &__items {
+            &_num {
+                font-size: 80px;
+            }
+            &_descr {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .request {
+        &__rectangle {
+            width: 400px;
+            height: 311px;
+        }
+        img {
+            left: 36px;
+            top: -36px;
+            width: 400px;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .promo {
+        min-height: 500px;
+        &__menu {
+            ul {
+                margin-top: 52px;
+                li {
+                    font-size: 14px;
+                    font-weight: 300;
+                }
+            }
+            img {
+                width: 173px;
+                height: 93px;
+            }
+        }
+        &__title {
+            font-size: 39px;
+        }
+        &__header {
+            margin: 67px 137px 0 137px;
+            font-size: 25px;
+        }
+    }
+
+    .offers {
+        &__title {
+            font-size: 27px;
+        }
+        &__about {
+            &_title {
+                font-size: 18px;
+                font-weight: 500;
+            }
+            &_subtitle {
+                font-size: 15px;
+            }
+            &_text {
+                font-size: 14px;
+            }
+        }
+        &__services {
+            margin-top: 87px;
+            &_list {   
+                li{
+                    font-size: 14px;
+                }
+            }
+        }
+        &__btn {
+            font-size: 14px;
+            padding: 14px 50px;
+        }
+    }
+
+    .advantages {
+        &__title {
+            font-size: 27px;
+        }
+        &__col {
+            &_item {
+                width: 150px;
+                margin-bottom: 20px;
+                padding: 8px;
+                img {
+                    width: 30px;
+                    height: 30px;
+                }
+                &_title {
+                    font-size: 14px;
+                    margin-top: 7px;
+                }
+                &_text {
+                    font-size: 12px;
+                    margin-top: 7px;
+                }
+            }
+        }
+    }
+
+    .statistics {
+        padding: 53px 0;
+        &__title {
+            font-size: 40px;
+        }
+        &__subtitle {
+            font-size: 16px;
+        }
+        &__items {
+            &_num {
+                font-size: 60px;
+            }
+            &_descr {
+                font-size: 16px;
+                line-height: 18px;
+            }
+        }
+    }
+
+    .request {
+        margin-top: 100px;
+        margin-bottom: 60px;
+        &__rectangle {
+            width: 300px;
+            height: 231px;
+        }
+        img {
+            left: 36px;
+            top: -36px;
+            width: 300px;
+        }
+        &__title {
+            font-size: 20px;
+            margin-top: -46px;
+        }
+        &__btn {
+            font-size: 14px;
+            margin-top: 24px;
+        }
+        &__polityc {font-size: 14px;}
+    }
+
+    .form-group {
+        margin-top: 42px;
+        input {
+            &::-webkit-input-placeholder {
+                font-size: 14px;
+            }
+        
+            :-moz-placeholder { 
+                font-size: 14px;
+            }
+        
+            ::-moz-placeholder {  
+                font-size: 14px;
+            }
+        
+            :-ms-input-placeholder {  
+                font-size: 14px;
+            }
+        }
+    }
+
+    .footer {
+        padding: 30px 0;
+        &_autor {
+            font-size: 14px;
+        }
+        &_search {
+            form {
+                width: 250px;
+                height: 25px;
+                input {
+                    height: 25px;
+                }
+                img {
+                    height: 15px;
+                    margin: 8px 8px 0 8px;
+                }
+            }  
+        }
+        &_icons {
+            img{
+                width: 25px;
+                height: 25px;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .promo {
+        min-height: 450px;
+        &__menu {
+            display: none;
+        }
+        &__title {
+            font-size: 39px;
+        }
+        &__header {
+            margin: 67px 47px 0 47px;
+            font-size: 22px;
+        }
+    }
+
+    .hamburger-menu {
+        display: block;
+
+    }
+    #menu__toggle {
+        opacity: 0;
+    }
+    .menu__btn {
+        display: flex; 
+        align-items: center;  
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        width: 26px;
+        height: 26px;
+        cursor: pointer;
+        z-index: 11;
+    }
+    .menu__btn > span,
+    .menu__btn > span::before,
+    .menu__btn > span::after {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: #fff;
+    }
+    .menu__btn > span::before {
+    content: '';
+    top: -8px;
+    }
+    .menu__btn > span::after {
+    content: '';
+    top: 8px;
+    }
+    .menu__box {
+        display: block;
+        position: fixed;
+        visibility: hidden;
+        top: 0;
+        left: -100%;
+        width: 280px;
+        height: 100%;
+        margin: 0;
+        padding: 80px 0;
+        list-style: none;
+        text-align: center;
+        background-color: rgba(0,0,0,.9);
+        box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+        z-index: 10;
+        li {
+            a {
+                img {
+                    width: 150px;
+                    height: 90px;
+                    margin-bottom: 15px;
+                }
+            }
+        }
+    }
+    .menu__item {
+        display: block;
+        padding: 12px 24px;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 300;
+        text-decoration: none;
+        &:focus {
+            color: #3B4CE3;
+        }
+      }
+
+    #menu__toggle:checked ~ .menu__btn > span {
+        transform: rotate(45deg);
+      }
+      #menu__toggle:checked ~ .menu__btn > span::before {
+        top: 0;
+        transform: rotate(0);
+      }
+      #menu__toggle:checked ~ .menu__btn > span::after {
+        top: 0;
+        transform: rotate(90deg);
+      }
+      #menu__toggle:checked ~ .menu__box {
+        visibility: visible;
+        left: 0;
+      }
+
+    .offers {
+        padding: 30px 0;
+        &__title {
+            display: none;
+        }
+        &__about {
+            &_title {
+                font-size: 18px;
+                font-weight: 500;
+            }
+            &_subtitle {
+                margin-top: 0;
+            }
+            &_text {
+                font-size: 14px;
+            }
+        }
+        &__services {
+            margin-top: 27px;
+            padding-left: 0px;
+            &_list {  
+                padding-left: 0; 
+                li{
+                    font-size: 14px;
+                }
+            }
+        }
+        &__btn {
+            font-size: 12px;
+            padding: 7px 30px;
+        }
+    }
+
+    .advantages {
+        margin: 30px 0;
+        .row {
+            display: flex;
+            justify-content: center;
+        }
+        &__title {
+            font-size: 27px;
+        }
+        &__col {
+            margin-top: 27px;
+            &_item {
+                width: 200px;
+                margin-bottom: 20px;
+                padding: 15px;
+                margin-right: 10px;
+                img {
+                    width: 30px;
+                    height: 30px;
+                }
+                &_title {
+                    font-size: 14px;
+                    margin-top: 7px;
+                }
+                &_text {
+                    font-size: 12px;
+                    margin-top: 7px;
+                }
+            }
+        }
+    }
+
+    .statistics {
+        padding: 30px 0;
+        &__title {
+            font-size: 30px;
+            line-height: 35px;
+        }
+        &__subtitle {
+            font-size: 16px;
+        }
+        &__items {
+            margin-top: 0;
+            &_num {
+                font-size: 40px;
+            }
+            &_descr {
+                font-size: 12px;
+                line-height: 18px;
+            }
+        }
+    }
+
+    .request {
+        margin-top: 100px;
+        margin-bottom: 60px;
+        &__rectangle {
+            display: none;
+        }
+        img {
+            display: none;
+        }
+        &__title {
+            font-size: 20px;
+            margin-top: -46px;
+        }
+        &__btn {
+            font-size: 14px;
+            margin-top: 24px;
+        }
+        &__polityc {font-size: 14px;}
+    }
+
+
+    .footer {
+        padding: 30px 0;
+        &_autor {
+            font-size: 12px;
+        }
+        &_search {
+            form {
+                width: 180px;
+                height: 25px;
+                input {
+                    height: 25px;
+                }
+                img {
+                    height: 15px;
+                    margin: 8px 8px 0 8px;
+                }
+            }  
+        }
+        &_icons {
+            img{
+                width: 25px;
+                height: 25px;
+            }
+        }
+    }
+
+    .foto {
+        display: none;
+    }
+
+    .carousel {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 575px) {
+    .footer {
+        &_search {
+            display: none;
+        }
+    }
+
+    #consultation {
+        width: 24rem;
+    }
+    .submit__btn {
+        font-size: 12px;
+    }
+
+    .offers__services {
+        display: block;
+    }
+
+    .form-group {
+        margin-top: 42px;
+        input {
+            &::-webkit-input-placeholder {
+                font-size: 12px;
+            }
+        
+            :-moz-placeholder { 
+                font-size: 12px;
+            }
+        
+            ::-moz-placeholder {  
+                font-size: 12px;
+            }
+        
+            :-ms-input-placeholder {  
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+@media (max-width: 491px) {
+    .promo {
+        min-height: 450px;
+        &__menu {
+            ul {
+                margin-top: 52px;
+                li {
+                    font-size: 14px;
+                    font-weight: 300;
+                }
+            }
+            img {
+                width: 173px;
+                height: 93px;
+            }
+        }
+        &__title {
+            font-size: 39px;
+        }
+        &__header {
+            margin: 67px 7px 0 7px;
+            font-size: 18px;
+        }
+    }
+
+    .statistics {
+        &__items {
+            &_item {
+                display: flex;
+                flex-flow: column;
+                margin-top: 40px;
+            }
+            &_num {
+                font-size: 35px;
+                line-height: 0px;
+            }
+            &_descr {
+                font-size: 10px;
+                line-height: 10px;
+                text-align: center;
+                margin-top: 18px;
+            }
+        }
+    }
+    #thanks {
+        width: 300px;
+    }
+
+    .advantages {
+        .row {
+            display: flex;
+            justify-content: center;
+        }
+        &__col {
+            flex-flow: column;
+        }
+    }
+}
+
+@media (max-width: 380px) {
+    .promo {
+        &__title {
+            font-size: 29px;
+        }
+        &__header {
+            font-size: 16px;
+        }
+    }
+
+    #consultation {
+        width: 19rem;
+    }
+    .feed-form {
+        margin-top: 36px;
+        width: 230px;
+        input {
+            height: 40px;
+            font-size: 12px;
+        }
+    }
+
+    .submit__btn {
+        font-size: 12px;
+    }
+
+    .offers {
+        &__about {
+            &_text {
+                font-size: 12px;
+            }
+        }
+        &__services {
+            &_list {   
+                li{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+
+    .advantages {
+        &__title {
+            font-size: 20px;
+        }
+    }
+
+    .statistics {
+        &__title {
+            font-size: 25px;
+        }
+    }
+
+    .request {
+        &__polityc {
+            font-size: 12px;
+        }
+    }
+
+    .footer {
+        &_icons {
+            img{
+                width: 15px;
+                height: 15px;
+            }
+        }
+    }
+}

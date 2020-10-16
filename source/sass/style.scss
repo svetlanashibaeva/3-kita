@@ -1,0 +1,56 @@
+@import './blocks/header'; 
+@import './blocks/promo';
+@import './blocks/offers';
+@import './blocks/advantages';
+@import './blocks/statistics';
+@import './blocks/foto';
+@import './blocks/request';
+@import './blocks/footer';
+@import './blocks/modal';
+
+
+@import './base/media';
+@import './base/animations';
+@import './base/variables';
+
+@import './libs/bootstrap-reboot.min';
+
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+button {
+    &:focus {
+        outline: none !important;
+    }
+    &:active{
+        outline: none !important;
+    }
+    &:hover{
+        background: #4759ff;
+        box-shadow: inset 0 0 5px rgba(0, 0, 0, .5);
+    }
+}
+
+/* .title {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #555555;
+} */

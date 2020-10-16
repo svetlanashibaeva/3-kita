@@ -1,0 +1,88 @@
+.request {
+    margin-top: 130px;
+    margin-bottom: 70px;
+    &__rectangle {
+        content: "";
+        background: #ABAAAA;
+        width: 450px;
+        height: 350px;
+        z-index: 1;
+        position: absolute;
+    }
+    img {
+        z-index: 2;
+        position: relative;
+        left: 56px;
+        top: -56px;
+        width: 450px;
+    }
+    &__title {
+        font-size: 30px;
+        text-transform: uppercase;
+        color: #000000;
+        margin-top: -56px;
+        text-align: center;
+    }
+    &__btn {
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 16px;
+        background: #3b4ce3;
+        border-radius: 15px;
+        border: none;
+        padding: 14px 70px;
+        margin-top: 34px;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+    &__polityc{
+        text-align: center;
+        font-size: 16px;
+        margin-top: 17px;
+        a {
+            color: #3b4ce3;
+            font-weight: 700;
+        }
+    }
+}
+
+.form-group {
+    margin-top: 82px;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #ABAAAA;
+    input {
+        border: none;
+        text-align: center;
+        &:focus {
+            outline: 0 !important;
+            outline-offset: 0;
+            box-shadow: none;
+        }
+        &::-webkit-input-placeholder {
+            text-align:center;
+            font-size: 18px;
+            text-transform: uppercase;
+        }
+    
+        :-moz-placeholder { /* Firefox 18- */
+            text-align:center; 
+            font-size: 18px; 
+            text-transform: uppercase;
+        }
+    
+    ::-moz-placeholder {  /* Firefox 19+ */
+       text-align:center; 
+       font-size: 18px; 
+       text-transform: uppercase;
+    }
+    
+    :-ms-input-placeholder {  
+       text-align:center; 
+       font-size: 18px;
+       text-transform: uppercase;
+    }
+    }
+}
+

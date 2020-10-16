@@ -1,0 +1,64 @@
+.offers {
+    background: #EDEBEB;
+    padding: 70px 0;
+    display: flex;
+    flex-direction: column;
+    &__title {
+        font-size: 40px;
+        text-transform: uppercase;
+        color: #000000;
+        text-align: center;
+    }
+    &__about {
+        &_title {
+            font-size: 25px;
+            text-transform: uppercase;
+            color: #000000;
+            margin-top: 17px;
+            font-weight: 400;
+        }
+        &_subtitle {
+            margin-top: 45px;
+            font-size: 20px;
+            text-transform: uppercase;
+            color: #555555;
+        }
+        &_text {
+            font-size: 18px;
+            line-height: 18px;
+            color: #555555;
+            margin-top: 17px;
+        }
+    }
+    &__services {
+        margin-top: 92px;
+        display: flex;
+        flex-flow: row nowrap;
+        &_list {
+            //list-style-image: url(../../icons/rec.png);
+            list-style-type: none;
+            :before {
+                color: #3B4CE3; 
+                content: "■ "; 
+                border-radius: 2px; 
+            }
+            li{
+                font-size: 16px;
+                list-style-type: none;
+                &:not(:first-child) {
+                    padding-top: 23px;
+                }
+            }
+        }
+    }
+    &__btn {
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 16px;
+        background: #3B4CE3;
+        border-radius: 15px;
+        border: none;
+        padding: 14px 70px;
+        margin-top: 27px;
+    }
+}
