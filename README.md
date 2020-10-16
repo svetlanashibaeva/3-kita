@@ -9,6 +9,10 @@
 3) таск-менеджер Gulp
 4) JavaScript
 
+## Посмотреть демо-версию
+
+ [Demo](https://svetlanashibaeva.github.io/3-kita/)
+
 
 
 
